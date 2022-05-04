@@ -2,9 +2,9 @@
   <div id="app">
     <app-header />
 
-    <main>
+
       <app-main />
-    </main>
+
 
     <app-footer />
   </div>

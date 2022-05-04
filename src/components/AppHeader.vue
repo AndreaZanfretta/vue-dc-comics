@@ -4,7 +4,7 @@
             <div class="nav">
                 <div class="logo"><img src="../assets/images/dc-logo.png" alt=""></div>
                 <ul>
-                    <li v-for="(section, index) in navSections" :key="index">
+                    <li v-for="(section, index) in navSections" :class="{'act-text' : section.active}" :key="index">
                         {{section.text}}
                         <div :class="{'active' : section.active}" class="act"></div>
                         </li>
@@ -96,7 +96,7 @@ ul{
 }
 .act{
     position: absolute;
-    bottom: -25px;
+    bottom: -53px;
     left: 0;
     height: 5px;
     width: 100%;
@@ -105,5 +105,8 @@ ul{
 }
 .active{
     display: block;
+}
+.act-text{
+        color: $blue
 }
 </style>
