@@ -84,4 +84,7 @@ export default {
     height: 60px;
     margin-right: 10px;
 }
+.card p{
+    text-transform: uppercase;
+}
 </style>

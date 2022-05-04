@@ -81,9 +81,10 @@ ul{
     width: 60%;
     
     li{
+        text-transform: uppercase;
         display: inline-block;
-        font-size: 18px;
-        margin: 0 15px;
+        font-size: 14px;
+        margin: 0 10px;
         position: relative;
     }
 }

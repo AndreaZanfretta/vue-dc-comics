@@ -36,12 +36,12 @@
                     <a href="#"> Sign-up Now</a>
                 </div>
                 <div class="socials">
-                    <h4>a</h4>
-                    <p>a</p>
-                    <p>a</p>
-                    <p>a</p>
-                    <p>a</p>
-                    <p>a</p>
+                    <h4>Follow Us</h4>
+                    <p><img src="../assets/images/footer-facebook.png" alt=""></p>
+                    <p><img src="../assets/images/footer-twitter.png" alt=""></p>
+                    <p><img src="../assets/images/footer-youtube.png" alt=""></p>
+                    <p><img src="../assets/images/footer-pinterest.png" alt=""></p>
+                    <p><img src="../assets/images/footer-periscope.png" alt=""></p>
                 </div>
             </div>
         </div>
@@ -124,6 +124,7 @@ ul{
     margin: 0 15px;
 }
 h3{
+    text-transform: uppercase;
     color: $white;
     padding: 15px 0;
 }
@@ -135,6 +136,7 @@ h3{
 .socialContainer{
     display: flex;
     width: 70%;
+    height: 100%;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
@@ -144,8 +146,23 @@ h3{
     padding: 10px 15px;
 
         a{
+            text-transform: uppercase;
+            font-size: 20px;
             text-decoration: none;
             color: $white;
         }
+}
+.socials{
+    display: flex;
+    align-items: center;
+    h4{
+        text-transform: uppercase;
+        color: $blue;
+        font-size: 25px;
+        margin-right: 30px;
+    }
+    p{
+        margin: 0 5px;
+    }
 }
 </style>
