@@ -97,7 +97,7 @@ ul{
 }
 .act{
     position: absolute;
-    bottom: -53px;
+    bottom: -54px;
     left: 0;
     height: 5px;
     width: 100%;
